@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<body>
+    <div class="pure-g div-container">
+        <aside class="pure-u-1-5 aside-samping">
+            <ul class="ul-alat" id="alat-alat-ul">
+                <li><button class="button-alat" data-action="capitalize" data-target="editor-textarea">🔠 KAPITALKAN</button></li>
+                <li><button class="button-alat" data-action="normalize" data-target="editor-textarea">🔡 kecilkan</button></li>
+                <li><button class="button-alat" data-action="sentenced" data-target="editor-textarea">⚖️ Kalimatkan teks</button></li>
+                <li><button class="button-alat" data-action="titled" data-target="editor-textarea">📕 Judulkan Teks</button></li>
+            </ul>
+        </aside>
+        <main class="pure-u-3-5 main-editor">
+            <div class="col-gap">
+                <textarea class="textarea-editor" id="editor-textarea" placeholder="Ketik di sini..."></textarea>
+            </div>
+        </main>
+        <aside class="pure-u-1-5 aside-samping">
+        </aside>
+    </div>
+    <script src="static/js/index.js" type="module"></script>
+</body>
+
+</html>
